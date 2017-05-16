@@ -7,6 +7,10 @@ let ToolSchema = new Schema({
         type: String,
         enum: ['project', 'design', 'development', 'security','martketing']
     },
+    color: {
+        type: String,
+        Required: 'Please enter hex code for header color'
+    },
     image: {
         type: String,
         Required: 'Please enter image url'
